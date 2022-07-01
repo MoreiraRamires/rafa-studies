@@ -1,46 +1,60 @@
-# Getting Started with Create React App
+<h1 align="center">
+  Rafa Studies 
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🚀 Tecnologias
 
-## Available Scripts
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-In the project directory, you can run:
+- React
+- TypeScript
 
-### `npm start`
+## 💻 Projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🚀 Como executar o projeto
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Pré-requisitos
 
-### `npm test`
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Além disto é bom ter um editor para trabalhar com o código como [VSCode][vscode]
 
-### `npm run build`
+### 🧭 Rodando a aplicação web (Front End)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+# Clone este repositório
+$ git clone https://github.com/MoreiraRamires/rafa-studies.git
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Acesse a pasta do projeto no seu terminal/cmd
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Vá para a pasta da aplicação Front End
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# Instale as dependências
+$ npm install
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Execute a aplicação em modo de desenvolvimento
+$ npm run start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```
 
-## Learn More
+## 💻 Objetivo
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+-Crie um projeto React com Typescript do zero com Create React App
+-Entenda conceitos de React como Componentização, Props e State
+-Evite sobreposições de CSS com CSS Modules
+-Aprenda sobre os hooks useState e useEffect e entenda como eles eram usados nos class components
+-Deixe seu código mais limpo e documentado com a forma mais atual de se escrever React
+-Desenvolva seu código com conceitos de boas práticas como DRY (Don't repeat yourself) e SRP (Single Responsibility Principle)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## :memo: Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.md) para mais detalhes.
+Feito com ❤️ por Rafael Ramires 👋🏽 [Entre em contato!](https://www.linkedin.com/in/rafael-ramires-791aa378/)
+
+```
+
+```
