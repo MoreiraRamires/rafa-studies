@@ -19,6 +19,8 @@ function App() {
       }
     )));
   }
+
+  
   return (
     <div className={style.AppStyle}>  
       <Formulario setTarefas={setTarefas}/>
