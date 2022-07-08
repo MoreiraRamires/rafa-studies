@@ -1,10 +1,14 @@
 import Botao from "../Botao";
 import Relogio from "./Relogio";
 import style from './Cronometro.module.scss';
-import { tempoParaSegundos } from "../../common/utils/date";
+import { tempoParaSegundos } from "../../common/utils/time";
+import { Itarefa } from "../../types/tarefa";
 
-export default function Cronometro() {
-  console.log( 'conversao:' ,tempoParaSegundos('01:01:01'))
+interface Props {
+  selecionado: Itarefa | undefined
+}
+
+export default function Cronometro({selecionado}:Props) {
 
   return (
     <div className={style.cronometro}>
