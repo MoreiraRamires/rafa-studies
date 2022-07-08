@@ -12,7 +12,7 @@ function Lista({tarefas}:{tarefas:Itarefa[]}){
       <h2>Estudos do dia</h2>
       <ul>
         {tarefas.map( (atributos,index) => (
-         <ItemLista key={index} tarefa={atributos.tarefa} tempo={atributos.tempo}/>
+         <ItemLista key={index} tarefa={atributos.tarefa} tempo={atributos.tempo} selecionado={atributos.selecionado} completado={atributos.completado} id={atributos.id}/>
         ))}
       </ul>
     </aside>

@@ -2,7 +2,8 @@ import { eventWrapper } from "@testing-library/user-event/dist/utils";
 import React from "react";
 import { Itarefa } from "../../types/tarefa";
 import Botao from "../Botao";
-import style from './Formulario.module.scss'
+import style from './Formulario.module.scss';
+import {v4 as uuidv4} from 'uuid'
 
 
 
@@ -13,12 +14,27 @@ class Formulario extends React.Component <{
 
   state ={
     tarefa:'hello',
-    tempo:'00:00:00'
+    tempo:'00:00'
   }
 
   adicionarTarefa(event:React.FormEvent<HTMLFormElement>){
       event.preventDefault();
-      this.props.setTarefas( tarefasAntigas => [...tarefasAntigas, {...this.state}]);
+      this.props.setTarefas( tarefasAntigas => 
+        [
+          ...tarefasAntigas, 
+          {
+            ...this.state,
+            selecionado:false,
+            completado:false,
+            id: uuidv4(),
+          
+          }]);
+      this.setState(
+        {
+          tarefa:"",
+          tempo:"00:00"
+        }
+      )
   }
   render() {
     return(
